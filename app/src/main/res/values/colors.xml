@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Design System   -->
+    <color name="primary_confidentblue">#0050f0</color>
+    <color name="primary_refreshingorange">#f68b1f</color>
+    <color name="primary_refreshingorange_dark">#d5710c</color>
+    <color name="primary_trustednavy">#002d63</color>
+    <color name="primary_honestwhite">#ffffff</color>
+    <color name="secondary_skyblue100">#65b2e8</color>
+    <color name="secondary_skyblue70">#93c9ee</color>
+    <color name="secondary_skyblue40">#c1e0f6</color>
+    <color name="secondary_skyblue10">#eff7fc</color>
+    <color name="secondary_darkorange100">#f15a22</color>
+    <color name="secondary_darkorange70">#f58b64</color>
+    <color name="secondary_darkorange40">#f9bda7</color>
+    <color name="secondary_darkorange10">#fdeee8</color>
+    <color name="secondary_grey100">#5b6a83</color>
+    <color name="secondary_grey70">#7d8999</color>
+    <color name="secondary_grey50">#b0bccb</color>
+    <color name="secondary_grey20">#dfe6ec</color>
+    <color name="secondary_grey10">#f5f6f7</color>
+    <color name="utility_red_error100">#da2110</color>
+    <color name="utility_red_error70">#e56357</color>
+    <color name="utility_red_error40">#f0a69f</color>
+    <color name="utility_red_error10">#fbe8e7</color>
+    <color name="utility_green_success100">#1eb950</color>
+    <color name="utility_green_success70">#61ce84</color>
+    <color name="utility_green_success40">#a5e3b9</color>
+    <color name="utility_green_success10">#e8f8ed</color>
+    <color name="utility_yellow_warning100">#feae00</color>
+    <color name="utility_yellow_warning70">#fec64c</color>
+    <color name="utility_yellow_warning40">#ffdf99</color>
+    <color name="utility_yellow_warning10">#fef6e5</color>
+    <color name="tertiary_peach100">#ff917e</color>
+    <color name="tertiary_peach70">#ffb2a4</color>
+    <color name="tertiary_peach40">#ffd3cb</color>
+    <color name="tertiary_peach10">#fff4f2</color>
+    <color name="tertiary_pink100">#ea93d8</color>
+    <color name="tertiary_pink70">#f0b3e3</color>
+    <color name="tertiary_pink40">#f7d4ef</color>
+    <color name="tertiary_pink10">#fcf4fb</color>
+    <color name="tertiary_lightyellow100">#fec800</color>
+    <color name="tertiary_lightyellow70">#fed84c</color>
+    <color name="tertiary_lightyellow40">#ffe999</color>
+    <color name="tertiary_lightyellow10">#fef9e5</color>
+    <color name="tertiary_orange100">#ff8b33</color>
+    <color name="tertiary_orange70">#ffad70</color>
+    <color name="tertiary_orange40">#ffd1ad</color>
+    <color name="tertiary_orange10">#fff3ea</color>
+    <color name="tertiary_lightgreen100">#a7e6c3</color>
+    <color name="tertiary_lightgreen70">#c1edd5</color>
+    <color name="tertiary_lightgreen40">#dcf5e7</color>
+    <color name="tertiary_lightgreen10">#f6fcf9</color>
+    <color name="tertiary_turquoise100">#3dbcbe</color>
+    <color name="tertiary_turquoise70">#77d0d1</color>
+    <color name="tertiary_turquoise40">#b1e4e5</color>
+    <color name="tertiary_turquoise10">#ebf8f8</color>
+    <color name="tertiary_blue100">#0ac0eb</color>
+    <color name="tertiary_blue70">#53d2f1</color>
+    <color name="tertiary_blue40">#9de6f7</color>
+    <color name="tertiary_blue10">#e6f8fd</color>
+    <color name="tertiary_brown100">#8c522a</color>
+    <color name="tertiary_brown70">#ae8569</color>
+    <color name="tertiary_brown40">#d1baaa</color>
+    <color name="tertiary_brown10">#f3ede9</color>
+    <color name="color_overlay_trustednavy">#80002d63</color>
+    <color name="color_overlay_imageoverlay">#33000000</color>
+
+    <color name="shimmer_color">#a2878787</color>
+    <color name="colorPrimary">#0050f0</color>
+    <color name="colorPrimaryDark">#0050f0</color>
+    <color name="colorAccent">#f68b1f</color>
+    <color name="border">#3333FF</color>
+    <color name="indicator">#ffbf00</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_opacity_20">#33FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="pin_title">#003368</color>
+    <color name="pin_text_color">#0056ff</color>
+    <color name="pin_lock_description">#002D63</color>
+    <color name="pin_text_unfilled">@color/secondary_grey_04</color>
+    <color name="pin_text_filled">@color/refreshing_orange</color>
+    <color name="pin_text_error">#FF0000</color>
+
+    <color name="bottom_navigate_text">#002d63</color>
+    <color name="navigation_unchecked">#1678be</color>
+    <color name="navigation_checked">#002060</color>
+
+    <color name="text_welcome_title">#f68b1f</color>
+    <color name="shimmer_background_color">#b1b1b1</color>
+
+    <color name="label">#002d63</color>
+    <color name="hint">#9eafc2</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="default_dot">#b0bccb</color>
+
+    <color name="bottom_sheet_title">#002d63</color>
+
+    <color name="button_active">@color/primary_refreshingorange</color>
+    <color name="validation_error">#e56357</color>
+    <color name="focussed_box">#0056ff</color>
+    <color name="review_bg">#f5f6f7</color>
+    <color name="label_normal">#728092</color>
+
+    <color name="medium_font">#002d63</color>
+
+    <color name="gray_70">#7D8999</color>
+    <color name="light_yellow">#FEC800</color>
+    <color name="trusted_navy">#002D63</color>
+    <color name="grey_03">#728092</color>
+    <color name="refreshing_orange">#f68b1f</color>
+    <color name="refreshing_orange_01">#d5710c</color>
+    <color name="sky_blue_100">#65b2e8</color>
+    <color name="red_error_100">#da2110</color>
+    <color name="grey_04_20">#b0bccb</color>
+    <color name="grey_10">#D4DADC</color>
+    <color name="red_nagative_number">#e56357</color>
+    <color name="red_positive_number">#1eb950</color>
+
+    <color name="secondary_grey_04">#dfe6ec</color>
+    <color name="primary_confident_blue">#0050f0</color>
+    <color name="primary_navy">#002d63</color>
+    <color name="Navy">#002d63</color>
+    <color name="confident_blue">#0050f0</color>
+    <color name="error">#e56357</color>
+    <color name="focus_state">#c86d10</color>
+    <color name="disable">#dfe6ec</color>
+    <color name="shadow_outer">#0a4c5765</color>
+    <color name="shadow_inner">#0f4c5765</color>
+
+    <color name="light_gray">#d9d9d9</color>
+    <color name="thai_qr_code_blue">#01356a</color>
+    <color name="trustednavy80">#e6002d63</color>
+    <color name="trustednavy50">#80002D63</color>
+
+    <color name="gold">#c47c5a</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="gray_200">#CCCCCC</color>
+    <color name="disabled_font">#9EAFC2</color>
+
+    <color name="button_click">#d5710c</color>
+    <color name="big_selection_divider">#f5f6f7</color>
+
+</resources>
+

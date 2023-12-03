@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/green"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#E0FFAA"
+        android:gravity="center"
+        android:text="#E0FFAA"
+        app:layout_constraintBottom_toBottomOf="@id/pink"
+        app:layout_constraintEnd_toStartOf="@id/pink"
+        app:layout_constraintTop_toTopOf="@id/pink" />
+
+    <TextView
+        android:id="@+id/pink"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#FFAAAA"
+        android:gravity="center"
+        android:text="#FFAAAA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/yellow"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#FFF2AA"
+        android:gravity="center"
+        android:text="#FFF2AA"
+        app:layout_constraintBottom_toBottomOf="@id/pink"
+        app:layout_constraintStart_toEndOf="@id/pink"
+        app:layout_constraintTop_toTopOf="@id/pink" />
+
+    <TextView
+        android:id="@+id/cyan"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#AAFFEE"
+        android:gravity="center"
+        android:text="#AAFFEE"
+        app:layout_constraintEnd_toEndOf="@+id/pink"
+        app:layout_constraintStart_toStartOf="@+id/green"
+        app:layout_constraintTop_toBottomOf="@+id/green" />
+
+    <TextView
+        android:id="@+id/blue"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#FFAAC8FF"
+        android:gravity="center"
+        android:text="#FFAAC8FF"
+        app:layout_constraintEnd_toEndOf="@+id/pink"
+        app:layout_constraintStart_toStartOf="@+id/yellow"
+        app:layout_constraintTop_toBottomOf="@+id/yellow" />
+
+    <TextView
+        android:id="@+id/purple"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:background="#EEAAFF"
+        android:gravity="center"
+        android:text="#EEAAFF"
+        app:layout_constraintBottom_toTopOf="@id/pink"
+        app:layout_constraintEnd_toEndOf="@id/yellow"
+        app:layout_constraintStart_toStartOf="@id/green"
+        app:layout_constraintTop_toTopOf="@id/pink" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
