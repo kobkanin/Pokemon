@@ -44,3 +44,5 @@ p
 @app/src/main/java/com/example/pokemon/view/CollectionFragment.kt,f/3/f32f3d0873b1c535d216ce469bc946fbc641cd38
 l
 <app/src/main/java/com/example/pokemon/view/DetailFragment.kt,8/2/82768c471123d76098dd3afa0342807bcb25e7db
+p
+@app/src/main/java/com/example/pokemon/viewModel/HomeViewModel.kt,7/0/700c914887d8ba0b4a7b569068680ee46c354333

@@ -1,24 +1,22 @@
 package com.example.pokemon.view
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.pokemon.PokemonCollectionActivity
-import com.example.pokemon.PokemonDetailActivity
+import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
+import com.example.pokemon.R
 import com.example.pokemon.databinding.FragmentHomeBinding
-import com.example.pokemon.model.Trainer
+import com.example.pokemon.viewModel.HomeViewModel
 
-/**
- * A simple [Fragment] subclass.
- * Use the [HomeFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
+
+    val viewModel: HomeViewModel by viewModels()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -35,18 +33,16 @@ class HomeFragment : Fragment() {
         initView(binding)
     }
 
-    private fun initView(binding:  FragmentHomeBinding) {
+    private fun initView(binding: FragmentHomeBinding) {
         bindPokeBall(binding)
         bindBagPack(binding)
     }
 
     private fun bindPokeBall(binding: FragmentHomeBinding) {
-        binding.pokemonBall.apply {
-
+        binding.pokeBall.apply {
             setOnClickListener {
-                val intent = Intent(this.context, PokemonDetailActivity::class.java)
-                intent.putExtra(Trainer.TRAINER_NAME, "KOB")
-                startActivity(intent)
+                viewModel.getPokemonList()
+                redirectToDetail()
             }
         }
     }
@@ -54,10 +50,17 @@ class HomeFragment : Fragment() {
     private fun bindBagPack(binding: FragmentHomeBinding) {
         binding.backpack.apply {
             this.setOnClickListener {
-                val intent = Intent(this.context, PokemonCollectionActivity::class.java)
-                startActivity(intent)
+                redirectToCollection()
             }
         }
+    }
+
+    private fun redirectToCollection() {
+        findNavController().navigate(R.id.action_homeFragment_to_collectionFragment)
+    }
+
+    private fun redirectToDetail() {
+        findNavController().navigate(R.id.action_homeFragment_to_detailFragment)
     }
 
     companion object {
