@@ -1,9 +1,6 @@
 package com.example.pokemon.viewModel
 
-import androidx.lifecycle.ViewModel
-
-class HomeViewModel : ViewModel() {
-
+class CollectionViewModel {
     fun getPokemonList() {
 
     }

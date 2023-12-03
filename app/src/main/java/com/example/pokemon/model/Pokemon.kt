@@ -1,10 +1,16 @@
+import com.google.gson.annotations.SerializedName
+
 data class Pokemon(
     val id: Int,
     val name: Name,
     val type: List<String>,
+    @SerializedName("HP")
     val hp: Int,
+    @SerializedName("Attack")
     val attack: Int,
+    @SerializedName("Defense")
     val defense: Int,
+    @SerializedName("Speed")
     val speed: Int,
     val imageUrl: String
 )

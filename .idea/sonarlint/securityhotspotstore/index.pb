@@ -46,3 +46,17 @@ l
 <app/src/main/java/com/example/pokemon/view/DetailFragment.kt,8/2/82768c471123d76098dd3afa0342807bcb25e7db
 p
 @app/src/main/java/com/example/pokemon/viewModel/HomeViewModel.kt,7/0/700c914887d8ba0b4a7b569068680ee46c354333
+h
+8app/src/main/java/com/example/pokemon/di/CommonModule.kt,9/9/99f60819e34208b5aea06c9dad324246b5496b33
+b
+2app/src/main/java/com/example/pokemon/CommonLog.kt,8/3/832c1f71c87c7aeab7c2702e3b110d43b409057a
+w
+Gapp/src/main/java/com/example/pokemon/application/PokemonApplication.kt,9/c/9c202dbed1a99eb297325ac5ae520524e2333f0e
+g
+7app/src/main/java/com/example/pokemon/api/PokemonApi.kt,2/c/2c9cf2c70b3e0bcc04a5457731958eaf36b48c04
+i
+9app/src/main/java/com/example/pokemon/di/NetworkModule.kt,f/2/f2b16c7b0f4de6c419ee66187dd990305536814f
+u
+Eapp/src/main/java/com/example/pokemon/viewModel/ColletionViewModel.kt,1/6/16c353cda2b6dcbc173c901b571d4062f8ced88a
+v
+Fapp/src/main/java/com/example/pokemon/viewModel/CollectionViewModel.kt,2/d/2d5c1612d8e2fb2506436e2a1316d1c0ac3c2cfa

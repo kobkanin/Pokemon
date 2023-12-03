@@ -1,8 +1,6 @@
 package com.example.pokemon.adapter
 
-import Pokemon
 import android.graphics.Color
-import android.util.Log
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pokemon.databinding.PokemonTypeItemBinding
 
