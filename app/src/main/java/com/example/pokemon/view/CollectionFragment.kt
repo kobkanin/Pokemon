@@ -5,13 +5,21 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.lifecycleScope
 import com.example.pokemon.adapter.PokemonAdapter
 import com.example.pokemon.databinding.FragmentCollectionBinding
-import mockPokemonList
+import com.example.pokemon.viewModel.CollectionViewModel
+import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.launch
 
+@AndroidEntryPoint
 class CollectionFragment : Fragment() {
 
     private lateinit var binding: FragmentCollectionBinding
+
+    private val collectionViewModel: CollectionViewModel by viewModels()
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
@@ -26,8 +34,13 @@ class CollectionFragment : Fragment() {
     }
 
     private fun bindView(binding: FragmentCollectionBinding) {
-        val pokemonAdapter = PokemonAdapter(pokemon = mockPokemonList())
-        binding.pokemonRecycleView.adapter = pokemonAdapter
+        collectionViewModel.getPokemonList()
+        lifecycleScope.launch {
+            collectionViewModel.uiState.collect {
+                val pokemonAdapter = PokemonAdapter(pokemon = it)
+                binding.pokemonRecycleView.adapter = pokemonAdapter
+            }
+        }
     }
 
     companion object {}

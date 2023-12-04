@@ -60,3 +60,7 @@ u
 Eapp/src/main/java/com/example/pokemon/viewModel/ColletionViewModel.kt,1/6/16c353cda2b6dcbc173c901b571d4062f8ced88a
 v
 Fapp/src/main/java/com/example/pokemon/viewModel/CollectionViewModel.kt,2/d/2d5c1612d8e2fb2506436e2a1316d1c0ac3c2cfa
+u
+Eapp/src/main/java/com/example/pokemon/repository/PokemonRepository.kt,5/e/5e4468a89aa4641dea6248e06e329319ee794736
+l
+<app/src/main/java/com/example/pokemon/di/RepositoryModule.kt,9/b/9be3e6f8d67feaf52616c5171517e896060985c6
